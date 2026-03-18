@@ -607,6 +607,18 @@ cp -r skills/auto-review-loop ~/.claude/skills/
 cp -r skills/research-lit ~/.claude/skills/
 ```
 
+### Local Ollama Patch (Optional)
+
+If you want to run ARIS with local Ollama models for both executor and reviewer after the normal install, use the post-install patch script:
+
+```bash
+bash tools/patch_local_ollama.sh --ollama-host 127.0.0.1:11434
+```
+
+If your Ollama server uses a different port, change `--ollama-host` accordingly.
+
+See [docs/LOCAL_OLLAMA_PATCH_GUIDE.md](docs/LOCAL_OLLAMA_PATCH_GUIDE.md) for model choices, patch options, and the official Ollama compatibility references.
+
 ### Usage
 
 ```
