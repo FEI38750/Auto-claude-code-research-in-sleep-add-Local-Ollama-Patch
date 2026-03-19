@@ -1,5 +1,7 @@
 # Auto-claude-code-research-in-sleep (ARIS ⚔️🌙)
 
+> Fork note: `Auto-claude-code-research-in-sleep-add-Local-Ollama-Patch` adds a local Ollama post-install patch flow for running ARIS with local executor and reviewer models.
+
 ![ARIS Logo](docs/aris_logo.svg)
 
 ![Hero](docs/hero_combined.svg)
@@ -598,7 +600,7 @@ After Workflow 3 generates the paper, `/auto-paper-improvement-loop` runs 2 roun
 ### Install Skills
 
 ```bash
-git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+git clone https://github.com/FEI38750/Auto-claude-code-research-in-sleep-add-Local-Ollama-Patch.git
 cd Auto-claude-code-research-in-sleep
 
 # Install all skills globally
